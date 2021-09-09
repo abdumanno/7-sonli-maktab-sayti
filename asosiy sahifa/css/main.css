@@ -1,0 +1,127 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #fbfbfb;
+}
+
+.shadow {
+  box-shadow: 10px 30px 30px 0px gray;
+}
+
+.conatiner {
+  width: 1200px;
+  margin: 0 auto;
+  color: #0026ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.conatiner .row section {
+  width: 100%;
+  background: rgba(243, 239, 239, 0.411);
+}
+.conatiner .row section h1 {
+  width: 100%;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.conatiner .row header {
+  width: 100%;
+  background-color: transparent;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  position: sticky;
+  top: 0px;
+  background: rgba(255, 255, 255, 0.404);
+}
+.conatiner .row header h3 {
+  padding: 10px;
+  font-weight: bold;
+  color: #0011ff;
+  font-size: x-large;
+  text-transform: uppercase;
+}
+.conatiner .row header a {
+  position: relative;
+  display: inline-block;
+  padding: 10px;
+  color: rgba(0, 38, 255, 0.822);
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: 0.5s;
+  background: transparent;
+  font-weight: bold;
+  background-image: linear-gradient(145deg, rgba(0, 0, 255, 0.644), white, white, rgba(0, 0, 255, 0.644));
+  border-radius: 2px;
+}
+.conatiner .row header a:hover {
+  background: #0026ff;
+  border-radius: 5px;
+  color: #fff;
+  box-shadow: 0 0 1px #0026ff, 0 0 5px #0026ff, 0 0 25px #0026ff, 0 0 50px #0026ff, 0 0 100px #0026ff;
+}
+.conatiner .row header .a {
+  padding: 10px 30px;
+}
+.conatiner .row .bg {
+  background-image: url("/asosiy sahifa/img/maktab bg-1.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 600px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #0026ff;
+}
+.conatiner .row .maktab {
+  width: 100%;
+  padding: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.conatiner .row .maktab .haqida {
+  width: 30%;
+  border-radius: 20px;
+  background: #fff;
+}
+.conatiner .row .maktab .haqida img {
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+}
+.conatiner .row .maktab .haqida:hover {
+  transform: scale(0.9);
+  transition: all 0.6s linear;
+}
+.conatiner .row .maktab .haqida h3,
+.conatiner .row .maktab .haqida p {
+  padding: 0 40px;
+}
+.conatiner .row .foydali {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.conatiner .row .foydali a:hover {
+  transform: translatey(-20px);
+  transition: all 0.3s linear;
+}
+.conatiner .row .foydali a img {
+  width: 100%;
+}
+.conatiner .row .foydali a h1 {
+  font-size: 16px;
+}/*# sourceMappingURL=main.css.map */
