@@ -34,7 +34,6 @@ body {
         header {
             width: 100%;
             background-color: transparent;
-            padding: 10px 0;
             display: flex;
             justify-content: space-evenly;
             flex-wrap: wrap;
@@ -51,15 +50,11 @@ body {
                 font-size: x-large;
                 text-transform: uppercase;
             }
-
-            a:nth-child(1) {
-                margin-left: 29rem;
-
+            .col-1{
+                margin-top: 3.5rem;
             }
-
             a {
-                position: relative;
-                display: inline-block;
+                width: 10%;
                 padding: 10px;
                 color: #000000;
                 font-size: 14px;
@@ -71,24 +66,9 @@ body {
                 font-weight: bold;
                 border-radius: 2px;
                 text-align: center;
-
-                &:hover {
-                    background: rgb(0, 38, 255);
-                    border-radius: 5px;
-                    color: #fff;
-                    box-shadow: 0 0 1px rgb(0, 38, 255),
-                        0 0 5px rgb(0, 38, 255),
-                        0 0 25px rgb(0, 38, 255),
-                        0 0 50px rgb(0, 38, 255),
-                        0 0 100px rgb(0, 38, 255);
-                }
-
-
             }
 
-            .a {
-                padding: 10px 20px;
-            }
+            
         }
 
         .bg {

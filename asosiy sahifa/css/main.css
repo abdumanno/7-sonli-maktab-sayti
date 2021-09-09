@@ -30,7 +30,6 @@ body {
 .conatiner .row header {
   width: 100%;
   background-color: transparent;
-  padding: 10px 0;
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
@@ -47,12 +46,11 @@ body {
   font-size: x-large;
   text-transform: uppercase;
 }
-.conatiner .row header a:nth-child(1) {
-  margin-left: 29rem;
+.conatiner .row header .col-1 {
+  margin-top: 3.5rem;
 }
 .conatiner .row header a {
-  position: relative;
-  display: inline-block;
+  width: 10%;
   padding: 10px;
   color: #000000;
   font-size: 14px;
@@ -64,15 +62,6 @@ body {
   font-weight: bold;
   border-radius: 2px;
   text-align: center;
-}
-.conatiner .row header a:hover {
-  background: #0026ff;
-  border-radius: 5px;
-  color: #fff;
-  box-shadow: 0 0 1px #0026ff, 0 0 5px #0026ff, 0 0 25px #0026ff, 0 0 50px #0026ff, 0 0 100px #0026ff;
-}
-.conatiner .row header .a {
-  padding: 10px 20px;
 }
 .conatiner .row .bg {
   width: 100%;
