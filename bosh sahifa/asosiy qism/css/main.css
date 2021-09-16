@@ -27,41 +27,79 @@ div {
   position: relative;
 }
 .conatiner .row .section {
-  position: relative;
   width: 100vw;
   height: 100vh;
   background-image: url("/bosh sahifa/asosiy qism/img/maktab.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  padding: 20px;
-  text-align: center;
   text-transform: uppercase;
+  text-align: center;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: #fff;
 }
-.conatiner .row .section a {
+.conatiner .row .section .col-1 h1 {
+  position: absolute;
+  top: 5.5%;
+  left: 50%;
+  display: flex;
+  justify-content: center;
+}
+.conatiner .row .section .col-1 a {
   position: absolute;
   top: 4%;
   left: 18%;
 }
-.conatiner .row .section a img {
+.conatiner .row .section .col-1 a img {
   width: 3vw;
 }
 .conatiner .row .section h1 {
   position: absolute;
-  top: 50%;
+  top: 30%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-40%, -50%);
   font-size: 3rem;
 }
-.conatiner .row .section .header {
-  width: 500px;
-  background: rgba(0, 0, 0, 0.603);
-  border: 2px solid green;
+.conatiner .row .menu {
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.9);
+  width: 30vw;
+  height: 100vh;
+  padding: 25px 25px 0 60px;
+  transition: 0.7s all ease;
+  text-align: left;
+  display: none;
 }
-.conatiner .row .section .header a {
-  display: block;
+.conatiner .row .menu span {
+  position: absolute;
+  top: 3%;
+  left: 75%;
+}
+.conatiner .row .menu li:nth-child(2) {
+  margin-top: 5rem;
+}
+.conatiner .row .menu li {
+  margin-bottom: 5vh;
+  list-style: none;
+  position: relative;
+  padding-left: 60px;
+}
+.conatiner .row .menu li::after {
+  position: absolute;
+  content: "";
+  bottom: -3px;
+  left: 0;
+  width: 75%;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.conatiner .row .menu li a {
+  color: #fff;
+  padding-bottom: 2rem;
+  text-decoration: none;
 }
 .conatiner .row .maktab {
   width: 100%;
