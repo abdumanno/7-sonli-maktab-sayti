@@ -77,23 +77,17 @@ div {
         }
 
         .menu {
-            position: fixed;
             z-index: 1000;
             left: 0;
             top: 0;
             background: rgba(0, 0, 0, 0.9);
-            width: 30vw;
+            width: 500px;
             height: 100vh;
             padding: 25px 25px 0 60px;
             transition: 0.7s all ease;
             text-align: left;
-            display: none;
-
-            span {
-                position: absolute;
-                top: 3%;
-                left: 75%;
-            }
+            animation: menu 1s linear;
+            // display: none;
 
             li:nth-child(2){
                 margin-top: 5rem;
@@ -118,6 +112,25 @@ div {
                     color: #fff;
                     padding-bottom: 2rem;
                     text-decoration: none;
+                }
+            }
+            @keyframes menu {
+                0%{
+                    span {
+                        position: absolute;
+                        top: 2%;
+                        left: 23%;
+                    }
+                    transform: translate(-200px);
+                }
+                80%{
+                    span {
+                        position: fixed;
+                        position: absolute;
+                        top: 2%;
+                        left: 23%;
+                    }
+                    transform: translate(0);
                 }
             }
         }
