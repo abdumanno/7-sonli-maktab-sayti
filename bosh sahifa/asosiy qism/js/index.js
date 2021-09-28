@@ -1,11 +1,19 @@
-const maktab = () => {
-  const burger = document.querySelector("#menu"),
-    nav = document.querySelector(".menu"),
-    navlinks = document.querySelectorAll(".menu li");
-  burger.addEventListener("click", () => {
-    nav.classList.toggle("nav-active");
-  });
-  navlinks.forEach((link, i) => {
-    link.style.animation = `navmenu 0.5s ease forwards ${i / 7 + 0.35}s`;
-  });
-};
+const burger = document.querySelector("#burger"),
+  clone = document.querySelector(".delete");
+const menu = document.querySelector(".menu");
+burger.addEventListener("click", openburger);
+clone.addEventListener("click", exitburger);
+function openburger() {
+  menu.style.display = "block";
+  burger.style.display = "none";
+}
+function exitburger() {
+  menu.style.display = "none";
+  burger.style.display = "block";
+}
+burger.addEventListener("click", (event) => {
+  console.log(event.target);
+  if (event.target === menu) {
+    exitburger();
+  }
+});
