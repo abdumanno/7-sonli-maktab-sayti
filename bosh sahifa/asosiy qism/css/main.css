@@ -26,7 +26,6 @@ div {
   align-items: center;
   position: relative;
 }
-
 .conatiner .row .section {
   width: 100vw;
   height: 100vh;
@@ -39,7 +38,6 @@ div {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: #fff;
 }
-
 .conatiner .row .section .col-1 h1 {
   position: absolute;
   top: 5.5%;
@@ -47,17 +45,14 @@ div {
   display: flex;
   justify-content: center;
 }
-
 .conatiner .row .section .col-1 a {
   position: absolute;
   top: 4%;
   left: 18%;
 }
-
 .conatiner .row .section .col-1 a img {
   width: 3vw;
 }
-
 .conatiner .row .section h1 {
   position: absolute;
   top: 30%;
@@ -65,37 +60,33 @@ div {
   transform: translate(-40%, -50%);
   font-size: 3rem;
 }
-
 .conatiner .row .menu {
+  position: fixed;
   z-index: 1000;
   left: 0;
   top: 0;
   background: rgba(0, 0, 0, 0.9);
-  width: 500px;
+  width: 30vw;
   height: 100vh;
   padding: 25px 25px 0 60px;
   transition: 0.7s all ease;
   text-align: left;
   display: none;
 }
-
 .conatiner .row .menu span {
-  margin-left: 85%;
-  margin-top: 15%;
-  cursor: pointer;
+  position: absolute;
+  top: 3%;
+  left: 75%;
 }
-
 .conatiner .row .menu li:nth-child(2) {
   margin-top: 5rem;
 }
-
 .conatiner .row .menu li {
   margin-bottom: 5vh;
   list-style: none;
   position: relative;
   padding-left: 60px;
 }
-
 .conatiner .row .menu li::after {
   position: absolute;
   content: "";
@@ -105,25 +96,11 @@ div {
   height: 1px;
   background-color: rgba(255, 255, 255, 0.1);
 }
-
 .conatiner .row .menu li a {
   color: #fff;
   padding-bottom: 2rem;
   text-decoration: none;
 }
-
-@keyframes menu {
-  0% {
-    transform: translate(-300px);
-    display: block;
-  }
-
-  80% {
-    transform: translate(0);
-    display: block;
-  }
-}
-
 .conatiner .row .maktab {
   width: 100%;
   padding: 40px;
@@ -133,46 +110,36 @@ div {
   text-align: center;
   flex-wrap: wrap;
 }
-
 .conatiner .row .maktab .haqida {
   width: 30%;
   border-radius: 20px;
   background: #fff;
 }
-
 .conatiner .row .maktab .haqida img {
   width: 100%;
   border-radius: 20px 20px 0 0;
 }
-
 .conatiner .row .maktab .haqida:hover {
   transform: scale(0.9);
   transition: all 0.6s linear;
 }
-
 .conatiner .row .maktab .haqida h3,
 .conatiner .row .maktab .haqida p {
   padding: 0 40px;
 }
-
 .conatiner .row .foydali {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
   align-items: center;
 }
-
 .conatiner .row .foydali a:hover {
   transform: translatey(-20px);
   transition: all 0.3s linear;
 }
-
 .conatiner .row .foydali a img {
   width: 100%;
 }
-
 .conatiner .row .foydali a h1 {
   font-size: 16px;
-}
-
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */

@@ -1,12 +1,11 @@
-const burger = document.querySelector("#burger"),
-  menu = document.querySelector(".menu");
-// menu.style.display = "none";
-burger.addEventListener("click", () => {
-  menu.style.animation = "menu 1s  linear .1s";
-  menu.style.display = "block";
-  burger.style.display = "none";
-},2000);
-document.querySelector(".delete").addEventListener("click",()=>{
-  menu.style.display = "none";
-  burger.style.display = "block";
-});
+const maktab = () => {
+  const burger = document.querySelector("#menu"),
+    nav = document.querySelector(".menu"),
+    navlinks = document.querySelectorAll(".menu li");
+  burger.addEventListener("click", () => {
+    nav.classList.toggle("nav-active");
+  });
+  navlinks.forEach((link, i) => {
+    link.style.animation = `navmenu 0.5s ease forwards ${i / 7 + 0.35}s`;
+  });
+};
