@@ -2,7 +2,6 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: rgb(0, 0, 0);
 }
 
 .shadow {
@@ -20,7 +19,7 @@ div {
 .conatiner {
     width: 90%;
     margin: 0 auto;
-    color: rgb(0, 38, 255);
+    color: blue;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,10 +29,7 @@ div {
         .section {
             width: 100vw;
             height: 100vh;
-            background-image: url("/bosh sahifa/asosiy qism/img/maktab.png");
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center;
+            position: relative;
             text-transform: uppercase;
             text-align: center;
             font-family: 'Segoe UI',
@@ -41,23 +37,33 @@ div {
                 Geneva,
                 Verdana,
                 sans-serif;
-            color: #fff;
+            color: #1328e2;
+
+            .bg {
+                background-image: linear-gradient(45deg, rgba(26, 142, 231, 0.253), rgba(40, 146, 226, 0.253)), url("/bosh sahifa/asosiy qism/img/maktab bg.jpg");
+                background-blend-mode: color;
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-position-y: -200px;
+            }
 
             .col-1 {
-                h1 {
+                h2 {
                     position: absolute;
-                    top: 5.5%;
-                    left: 50%;
+                    top: 6%;
+                    left: 40%;
                     display: flex;
                     justify-content: center;
+                    font-size: 3rem;
                 }
             }
 
             .col-1 {
                 a {
                     position: absolute;
-                    top: 4%;
-                    left: 18%;
+                    top: 11%;
+                    left: 25%;
 
                     img {
                         width: 3vw;
@@ -67,10 +73,9 @@ div {
 
             h1 {
                 position: absolute;
-                top: 30%;
-                left: 50%;
-                transform: translate(-40%, -50%);
-                font-size: 3rem;
+                top: 35%;
+                left: 25%;
+                font-size: 4rem;
             }
 
 
@@ -81,7 +86,6 @@ div {
             z-index: 1000;
             left: 0;
             top: 0;
-            background: rgba(0, 0, 0, 0.9);
             width: 30vw;
             height: 100vh;
             padding: 25px 25px 0 60px;
@@ -95,9 +99,10 @@ div {
                 left: 75%;
             }
 
-            li:nth-child(2){
+            li:nth-child(2) {
                 margin-top: 5rem;
             }
+
             li {
                 margin-bottom: 5vh;
                 list-style: none;
@@ -115,7 +120,7 @@ div {
                 }
 
                 a {
-                    color: #fff;
+                    color: blue;
                     padding-bottom: 2rem;
                     text-decoration: none;
                 }
