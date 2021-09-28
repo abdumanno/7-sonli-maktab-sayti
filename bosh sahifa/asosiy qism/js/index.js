@@ -17,3 +17,10 @@ burger.addEventListener("click", (event) => {
     exitburger();
   }
 });
+const btn = document.querySelector(".loader");
+setTimeout(() => {
+  btn.style.opacity = "0";
+  setTimeout(() => {
+    btn.style.display = "none";
+  }, 1300);
+}, 1800);
