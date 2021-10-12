@@ -1,0 +1,36 @@
+.conatiner .row {
+  width: 100%;
+  margin: 0 auto;
+}
+.conatiner .row .col-12 .row {
+  width: 70%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.conatiner .row .col-12 .row .col-3 {
+  width: 35%;
+  background: #fff;
+  margin-top: 1rem;
+  border-radius: 20px 20px;
+}
+.conatiner .row .col-12 .row .col-3:hover {
+  transition: all 0.3s ease-in-out;
+  transform: translateY(-20px);
+}
+.conatiner .row .col-12 .row .col-3 h1 {
+  text-align: center;
+}
+.conatiner .row .col-12 .row .col-3 p {
+  padding: 20px;
+}
+.conatiner .row .col-12 .row img {
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+}
+.conatiner .row .col-12 .row:nth-child(1) {
+  margin-top: 5rem;
+}
+.conatiner .row .col-12 .row:nth-child(2) {
+  margin-bottom: 12rem;
+}/*# sourceMappingURL=index.css.map */
