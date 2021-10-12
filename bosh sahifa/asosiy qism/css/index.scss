@@ -1,0 +1,47 @@
+.conatiner {
+        .row {
+                width: 100%;
+                margin: 0 auto;
+
+                .col-12 {
+
+                        .row {
+                                width: 70%;
+                                display: flex;
+                                justify-content: space-evenly;
+                                flex-wrap: wrap;
+
+                                .col-3 {
+                                        width: 35%;
+                                        background: #fff;
+                                        margin-top: 1rem;
+                                        border-radius: 20px 20px;
+
+                                        &:hover {
+                                                transition: all .3s ease-in-out;
+                                                transform: translateY(-20px);
+                                        }
+
+                                        h1 {
+                                                text-align: center;
+                                        }
+
+                                        p {
+                                                padding: 20px;
+                                        }
+                                }
+
+                                img {
+                                        width: 100%;
+                                        border-radius: 20px 20px 0 0;
+                                }
+                        }
+                        .row:nth-child(1){
+                                margin-top: 5rem;
+                        }
+                        .row:nth-child(2) {
+                                margin-bottom: 12rem;
+                        }
+                }
+        }
+}
